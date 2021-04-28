@@ -8,7 +8,7 @@ import './App.css';
 
 
 function App() {
-  const [tasks, setTasks] = useState([{name: "clean room", desc: "Use the vacume", dueDate: "05-06-07", complete: false}, {name: "Jumping Jacks", desc: "Do 5 of them", dueDate: "06-05-12", complete: true}]);
+  const [tasks, setTasks] = useState([{name: "clean room", desc: "Use the vacume", dueDate: "05-06-07", complete: false}]);
   const [currTask, setCurrTask] = useState({name: "", desc: "", dueDate: ""});
   
   const addATask = (event) => {
